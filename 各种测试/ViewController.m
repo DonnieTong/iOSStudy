@@ -35,6 +35,7 @@
     label.text = @"各种测试";
     [view addSubview:label];
     [_button.titleLabel setTextAlignment:NSTextAlignmentLeft];
+    NSLog(@"%@",_button);
 }
 - (IBAction)pressed:(UIButton *)sender {
     if (_testView.hidden) {
